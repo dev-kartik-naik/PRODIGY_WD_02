@@ -1,0 +1,47 @@
+h1{
+    align-items: center;
+    
+}
+#stopwatch {
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  #display {
+    font-size: 48px;
+    font-family: 'Arial', sans-serif;
+    margin-bottom: 20px;
+  }
+  
+  button {
+    margin: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #4285f4;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #357ae8;
+  }
+  
+  button:active {
+    background-color: #2f5bb7;
+  }
+  
+  #lap-times {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  #lap-times li {
+    margin-bottom: 5px;
+    font-size: 18px;
+    font-family: 'Arial', sans-serif;
+    color: #333;
+  }
+  
